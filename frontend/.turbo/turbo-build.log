@@ -1,0 +1,145 @@
+
+> isomorphic-furyroad@0.0.1 build M:\isomorphic v7.4.0 - React admin dashboard template\isomorphic\apps\isomorphic
+> next build
+
+  ▲ Next.js 14.2.15
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+(node:31008) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+(node:18844) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/98) ...
+   Generating static pages (24/98) 
+   Generating static pages (48/98) 
+   Generating static pages (73/98) 
+ ✓ Generating static pages (98/98)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                               Size     First Load JS
+┌ ƒ /                                     201 B           428 kB
+├ ƒ /_not-found                           142 B          91.8 kB
+├ ƒ /access-denied                        584 B           207 kB
+├ ƒ /analytics                            11.3 kB         479 kB
+├ ƒ /api/auth/[...nextauth]               0 B                0 B
+├ ƒ /api/uploadthing                      0 B                0 B
+├ ƒ /appointment                          18 kB           500 kB
+├ ƒ /appointment/list                     13.8 kB         395 kB
+├ ƒ /auth/forgot-password-1               6.06 kB         280 kB
+├ ƒ /auth/forgot-password-2               4.42 kB         290 kB
+├ ƒ /auth/forgot-password-3               1.85 kB         287 kB
+├ ƒ /auth/forgot-password-4               2.96 kB         289 kB
+├ ƒ /auth/forgot-password-5               4.27 kB         289 kB
+├ ƒ /auth/otp-1                           3.41 kB         264 kB
+├ ƒ /auth/otp-2                           6.85 kB         269 kB
+├ ƒ /auth/otp-3                           3.08 kB         266 kB
+├ ƒ /auth/otp-4                           5.34 kB         268 kB
+├ ƒ /auth/otp-5                           5.49 kB         268 kB
+├ ƒ /auth/sign-in-1                       2.4 kB          289 kB
+├ ƒ /auth/sign-in-2                       4.92 kB         284 kB
+├ ƒ /auth/sign-in-3                       2.34 kB         282 kB
+├ ƒ /auth/sign-in-4                       3.35 kB         283 kB
+├ ƒ /auth/sign-in-5                       4.7 kB          284 kB
+├ ƒ /auth/sign-up-1                       2.53 kB         281 kB
+├ ƒ /auth/sign-up-2                       4.95 kB         285 kB
+├ ƒ /auth/sign-up-3                       2.37 kB         283 kB
+├ ƒ /auth/sign-up-4                       3.43 kB         284 kB
+├ ƒ /auth/sign-up-5                       4.72 kB         285 kB
+├ ƒ /blank                                336 B           202 kB
+├ ƒ /coming-soon                          6.27 kB         268 kB
+├ ƒ /crm                                  10.3 kB         551 kB
+├ ƒ /ecommerce                            21.9 kB         567 kB
+├ ƒ /ecommerce/cart                       3.31 kB         307 kB
+├ ƒ /ecommerce/categories                 7.76 kB         364 kB
+├ ƒ /ecommerce/categories/[id]/edit       7.31 kB         319 kB
+├ ƒ /ecommerce/categories/create          7.31 kB         319 kB
+├ ƒ /ecommerce/checkout                   3.5 kB          324 kB
+├ ƒ /ecommerce/orders                     6.16 kB         395 kB
+├ ƒ /ecommerce/orders/[id]                7.58 kB         297 kB
+├ ƒ /ecommerce/orders/[id]/edit           2.85 kB         381 kB
+├ ƒ /ecommerce/orders/create              4.08 kB         382 kB
+├ ƒ /ecommerce/products                   6.16 kB         402 kB
+├ ƒ /ecommerce/products/[slug]            20.3 kB         310 kB
+├ ƒ /ecommerce/products/[slug]/edit       201 B           398 kB
+├ ƒ /ecommerce/products/create            201 B           398 kB
+├ ƒ /ecommerce/reviews                    9.77 kB         299 kB
+├ ƒ /ecommerce/shop                       7.79 kB         282 kB
+├ ƒ /email-templates                      2.72 kB         234 kB
+├ ƒ /event-calendar                       47.8 kB         400 kB
+├ ƒ /executive                            19 kB           504 kB
+├ ƒ /file                                 201 B           428 kB
+├ ƒ /file-manager                         95 kB           470 kB
+├ ƒ /financial                            22.5 kB         491 kB
+├ ƒ /forms/newsletter                     6.12 kB         282 kB
+├ ƒ /forms/profile-settings               3.44 kB         313 kB
+├ ƒ /forms/profile-settings/billing       13.4 kB         328 kB
+├ ƒ /forms/profile-settings/integration   6.35 kB         251 kB
+├ ƒ /forms/profile-settings/notification  2.06 kB         203 kB
+├ ƒ /forms/profile-settings/password      1.89 kB         327 kB
+├ ƒ /forms/profile-settings/profile       236 B           325 kB
+├ ƒ /forms/profile-settings/team          9.56 kB         336 kB
+├ ƒ /image-viewer                         12.4 kB         264 kB
+├ ƒ /invoice                              6.16 kB         403 kB
+├ ƒ /invoice/[id]                         10.7 kB         291 kB
+├ ƒ /invoice/[id]/edit                    184 B           361 kB
+├ ƒ /invoice/builder                      15.1 kB         374 kB
+├ ƒ /invoice/create                       184 B           361 kB
+├ ƒ /job-board                            29.7 kB         584 kB
+├ ƒ /job-board/feed                       16.4 kB         291 kB
+├ ƒ /logistics                            43.3 kB         614 kB
+├ ƒ /logistics/customer-profile           26.5 kB         380 kB
+├ ƒ /logistics/shipments                  20.5 kB         404 kB
+├ ƒ /logistics/shipments/[id]             6.67 kB         293 kB
+├ ƒ /logistics/shipments/[id]/edit        192 B           340 kB
+├ ƒ /logistics/shipments/create           191 B           340 kB
+├ ƒ /logistics/tracking                   336 B           202 kB
+├ ƒ /logistics/tracking/[id]              11.6 kB         294 kB
+├ ƒ /maintenance                          2.36 kB         264 kB
+├ ƒ /multi-step                           58.4 kB         381 kB
+├ ƒ /not-found                            2.61 kB         240 kB
+├ ƒ /point-of-sale                        22.5 kB         303 kB
+├ ƒ /profile                              14.9 kB         304 kB
+├ ƒ /project                              15.4 kB         441 kB
+├ ƒ /roles-permissions                    23.3 kB         345 kB
+├ ƒ /search/flight                        34 kB           392 kB
+├ ƒ /search/nft                           6.15 kB         265 kB
+├ ƒ /search/real-estate                   11.8 kB         276 kB
+├ ƒ /signin                               2.38 kB         289 kB
+├ ƒ /social-media                         14.3 kB         550 kB
+├ ƒ /support                              32.5 kB         603 kB
+├ ƒ /support/inbox                        1.16 kB         332 kB
+├ ƒ /support/inbox/[id]                   553 B           324 kB
+├ ƒ /support/snippets                     258 B           333 kB
+├ ƒ /support/templates                    258 B           333 kB
+├ ƒ /tables/basic                         7.08 kB         309 kB
+├ ƒ /tables/collapsible                   257 B           399 kB
+├ ƒ /tables/dnd                           3.93 kB         312 kB
+├ ƒ /tables/enhanced                      255 B           407 kB
+├ ƒ /tables/pagination                    260 B           406 kB
+├ ƒ /tables/pinning                       1.76 kB         305 kB
+├ ƒ /tables/resizable                     1.38 kB         305 kB
+├ ƒ /tables/search                        2.08 kB         304 kB
+├ ƒ /tables/sticky-header                 1.1 kB          303 kB
+├ ƒ /welcome                              1.03 kB         201 kB
+├ ƒ /widgets/cards                        12.8 kB         366 kB
+├ ƒ /widgets/charts                       9.99 kB         342 kB
+├ ƒ /widgets/icons                        14.8 kB         266 kB
+└ ƒ /widgets/maps                         5.75 kB         289 kB
++ First Load JS shared by all             91.7 kB
+  ├ chunks/3391-a53b727c2ce3421a.js       31.8 kB
+  ├ chunks/a6247b23-e19232bbcdcaf159.js   53.6 kB
+  └ other shared chunks (total)           6.29 kB
+
+
+ƒ Middleware                              49.3 kB
+
+ƒ  (Dynamic)  server-rendered on demand
+
